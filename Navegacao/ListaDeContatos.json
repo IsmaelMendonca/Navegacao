@@ -1,0 +1,113 @@
+﻿[
+  {
+    "Nome": "Altrano de Tal",
+    "Email": "altrano@email.com",
+    "Telefone": "00 11223344"
+  },
+  {
+    "Nome": "Beltrano de Tal",
+    "Telefone": "00 11223344"
+  },
+  {
+    "Nome": "Celtrano de Tal",
+    "Email": "celtrano@email.com"
+  },
+  {
+
+    "Nome": "Deltrano de Tal",
+    "Email": "deltrano@email.com"
+  },
+  {
+    "Nome": "Eltrano de Tal",
+    "Telefone": "00 11223344",
+    "IsFavorito": true
+  },
+  {
+    "Nome": "Feltrano de Tal",
+    "Email": "feltrano@email.com"
+  },
+  {
+    "Nome": "Geltrano de Tal",
+    "Email": "geltrano@email.com"
+  },
+  {
+    "Nome": "Heltrano de Tal",
+    "Email": "heltrano@email.com"
+  },
+  {
+    "Nome": "Iltrano de Tal",
+    "Email": "iltrano@email.com"
+  },
+  {
+    "Nome": "Jeltrano de Tal",
+    "Email": "jeltrano@email.com",
+    "IsFavorito": true
+  },
+  {
+    "Nome": "Keltrano de Tal",
+    "Telefone": "00 11223344"
+  },
+  {
+    "Nome": "Leltrano de Tal",
+    "Email": "leltrano@email.com"
+  },
+  {
+    "Nome": "Meltrano de Tal",
+    "Email": "meltrano@email.com"
+  },
+  {
+    "Nome": "Neltrano de Tal",
+    "Email": "neltrano@email.com"
+  },
+  {
+    "Nome": "Oltrano de Tal",
+    "Telefone": "00 11223344",
+    "IsFavorito": true
+  },
+  {
+    "Nome": "Peltrano de Tal",
+    "Email": "peltrano@email.com"
+  },
+  {
+    "Nome": "Qualtrano de Tal",
+    "Email": "qualtrano@email.com"
+  },
+  {
+    "Nome": "Reltrano de Tal",
+    "Email": "reltrano@email.com"
+  },
+  {
+    "Nome": "Seltrano de Tal",
+    "Email": "seltrano@email.com"
+  },
+  {
+    "Nome": "Teltrano de Tal",
+    "Email": "teltrano@email.com",
+    "IsFavorito": true
+  },
+  {
+    "Nome": "Ultrano de Tal",
+    "Email": "ultrano@email.com"
+  },
+  {
+    "Nome": "Veltrano de Tal",
+    "Telefone": "00 11223344"
+  },
+  {
+    "Nome": "Weltrano de Tal",
+    "Email": "weltrano@email.com"
+  },
+  {
+    "Nome": "Xeltrano de Tal",
+    "Email": "xeltrano@email.com"
+  },
+  {
+    "Nome": "Yeltrano de Tal",
+    "Email": "yeltrano@email.com",
+    "IsFavorito": true
+  },
+  {
+    "Nome": "Zeltrano de Tal",
+    "Email": "zeltrano@email.com"
+  }
+]
