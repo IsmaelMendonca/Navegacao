@@ -14,7 +14,7 @@
         </Style>
 
         <DataTemplate x:Key="ListDataTemplate">
-            <Grid Margin="0,12" BorderBrush="LightGray" BorderThickness="0,0,0,1">
+            <Grid Margin="0,12" BorderBrush="LightGray" BorderThickness="0,0,0,1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
                 <Grid.RowDefinitions>
                     <RowDefinition />
                     <RowDefinition />

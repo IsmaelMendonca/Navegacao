@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -43,7 +44,7 @@ namespace Navegacao
         /// will be used such as when the application is launched to open a specific file.
         /// </summary>
         /// <param name="e">Details about the launch request and process.</param>
-        protected override void OnLaunched(LaunchActivatedEventArgs e)
+        protected override async void OnLaunched(LaunchActivatedEventArgs e)
         {
             //Inicialização do frame
             RootFrame = new Frame();
@@ -58,8 +59,12 @@ namespace Navegacao
             // Place the frame in the current Window
             Window.Current.Content = new HamburgerMenu();
 
+            ObservableCollection<Contato> contatos = await Contato.GetContactList();
+
+            contatos = new ObservableCollection<Contato>(contatos.Where(x => x.IsFavorito).OrderBy(x => x.Nome));
+
             //Navegacao para a tela de favoritos pelo App (sem contatos)
-            RootFrame.Navigate(typeof(Favoritos));
+            RootFrame.Navigate(typeof(Favoritos), contatos);
 
             // Ensure the current window is active
             Window.Current.Activate();
